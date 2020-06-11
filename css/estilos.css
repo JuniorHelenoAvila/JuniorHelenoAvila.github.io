@@ -29,6 +29,7 @@ h2, h3 {
     
 }
 
+
 /*
     NAVEGAÇÃO NO SITE
 */
@@ -121,9 +122,13 @@ Começo
     background-color: black;
     background-position: center;
     color: #f1f1f1;
-    
-    
 }
+
+
+#saibaMais .botao {
+    background-color: black;
+}
+
 
 /*
 HISTORIA
