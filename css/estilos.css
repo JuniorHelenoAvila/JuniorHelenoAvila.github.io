@@ -170,7 +170,7 @@ GAMES
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: dimgray;
+    background-color: navy;
 }
 
 #games h2 {
