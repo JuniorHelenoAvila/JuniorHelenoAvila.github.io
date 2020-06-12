@@ -112,6 +112,10 @@ Começo
     max-width: 1000px;
 }
 
+#comeco img {
+    max-width: 100%;
+}
+
 
 #saibaMais {
     display: flex;
@@ -328,6 +332,8 @@ MEDIA QUERIES
         max-width: 500px;
         margin: 0 auto;
     }
+    
+
 }
 
 
