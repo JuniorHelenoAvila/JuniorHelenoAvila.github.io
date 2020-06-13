@@ -157,8 +157,18 @@ CURIOSIDADES
     flex-direction: column;
     align-items: center;
     padding: 20px;
-    background-color: black;
+    background-color: darkgreen;
     color: #f1f1f1;
+}
+
+#curiosidades h2 {
+    font-family: "Press Start 2P", arial;
+}
+
+#curiosidades img {
+    align-items: center;
+    width: 100%;
+    height: 100%; 
 }
 
 /*
@@ -179,7 +189,7 @@ GAMES
     color: #f1f1f1;
 }
 
-#games div div {
+/*#games div {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -187,11 +197,13 @@ GAMES
 }
 
 
-#games div div img {
+#games div img {
     width: 100%;
     height: 100%;
     margin-right: 20px;
-}
+}*/
+
+
 /*
 imagens
 */
@@ -333,6 +345,33 @@ MEDIA QUERIES
         margin: 0 auto;
     }
     
+    /*
+    CURIOSIDADES
+    */
+    #curiosidades {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    
+    #curiosidades h2 {
+        width: 10%;
+        text-align: center;
+        padding-bottom: 20px;
+        
+    }
+    
+    #curiosidades p {
+        width: 100%;
+    }
+
+
+    #curiosidades img {
+        width: 25%; 
+        align-items: center;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+
 
 }
 
